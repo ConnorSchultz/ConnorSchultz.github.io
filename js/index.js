@@ -5,7 +5,7 @@ window.onload = function(){
     user = JSON.parse(localStorage.getItem(email));
     calendar = document.getElementById(calendar);
     calendar.rows[1].cells[0].innerHTML = 'aaaa';
-    document.getElementByClassName("squats").innerHTML = '';
-    document.getElementByClassName("yoga").innerHTML = '';
+    document.getElementById("squats").innerHTML = '';
+    document.getElementById("yoga").innerHTML = '';
 
 }
